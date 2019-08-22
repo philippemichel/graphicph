@@ -1,0 +1,15 @@
+Package: graphs
+Title: Somes graphs with ggplot2
+Version: 0.3
+Authors@R: person("Philippe", "MICHEL", email = "philippe@docteur-michel.fr", role = c("aut", "cre"))
+Description: all my usuels graphics.
+Depends: R (>= 3.5.0)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports: ggplot2,
+    RColorBrewer,
+    dplyr,
+    viridis,
+    stats
