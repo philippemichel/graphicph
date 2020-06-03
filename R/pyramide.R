@@ -8,6 +8,8 @@
 #' @import ggplot2
 #' @import RColorBrewer
 #' @import dplyr
+#' @import lifecycle
+#' 
 #'
 #' @return graphique
 #' @export

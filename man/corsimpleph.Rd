@@ -4,8 +4,16 @@
 \alias{corsimpleph}
 \title{Graphique de correlation simple}
 \usage{
-corsimpleph(dfx, xx, yy, titre = "", titx = "", tity = "",
-  moymob = TRUE, dtcor = FALSE)
+corsimpleph(
+  dfx,
+  xx,
+  yy,
+  titre = "",
+  titx = "",
+  tity = "",
+  moymob = TRUE,
+  dtcor = FALSE
+)
 }
 \arguments{
 \item{dfx}{Data frame à étudier}

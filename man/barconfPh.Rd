@@ -4,8 +4,16 @@
 \alias{barconfPh}
 \title{Barplot simple avec les IC a partir d'une donnee discrete.}
 \usage{
-barconfPh(dfx, lig, titre = "", titx = "", tity = "\%", seuil = 95,
-  desc = TRUE, angle = FALSE)
+barconfPh(
+  dfx,
+  lig,
+  titre = "",
+  titx = "",
+  tity = "\%",
+  seuil = 95,
+  desc = TRUE,
+  angle = FALSE
+)
 }
 \arguments{
 \item{dfx}{un data.frame}

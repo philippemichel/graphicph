@@ -4,8 +4,17 @@
 \alias{cormultiph}
 \title{Graphique de correlation, plusieurs groupes}
 \usage{
-cormultiph(dfx, xx, yy, groupe, titre = "", titx = "", tity = "",
-  moymob = TRUE, dtcor = FALSE)
+cormultiph(
+  dfx,
+  xx,
+  yy,
+  groupe,
+  titre = "",
+  titx = "",
+  tity = "",
+  moymob = TRUE,
+  dtcor = FALSE
+)
 }
 \arguments{
 \item{dfx}{Data frame à étudier}
