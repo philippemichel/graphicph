@@ -17,15 +17,17 @@
 #' @import stats
 #' @import ggplot2
 #' @import viridis
-#' @import dplyr
+#' @import tidyverse
+#' 
+#' @example barconfPh(iris, Species)
 #'
-#' @export
+#' @export 
 barconfPh <- function(dfx, lig,
                       titre = "", titx ="", tity="%",
                       seuil = 95, desc = TRUE, angle = FALSE){
   varx <- enquo(lig)
   lig <- pull(dfx,!!varx)
-  if (is.factor(lig) == FALSE){
+  if (! is.factor(lig)){
     return("Erreur : Variable non factorielle")
   }
   ligx <- c()

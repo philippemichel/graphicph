@@ -17,5 +17,5 @@ tangangPh(nn, tot, seuil = 95)
 un  vecteur : pourcentage, borne inf, borne sup
 }
 \description{
-Calcul des IC par transformation angulaire
+Pour un nb  de cas et un nb total, calcule l'intervalle de confiance au seuil voulu.
 }

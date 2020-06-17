@@ -1,10 +1,14 @@
 #' Calcul des IC par transformation angulaire
 #'
+#' Pour un nb  de cas et un nb total, calcule l'intervalle de confiance au seuil voulu.
+#' 
 #' @param nn nb de cas
 #' @param tot total
-#' @param seuil : marge d'erreur exprimée en % (95 % par défaut)
+#' @param seuil : marge d'erreur exprimée en percent (95 par défaut)
 #'
 #' @return un  vecteur : pourcentage, borne inf, borne sup
+#' 
+#' @example tangangPh(nn = 45, total = 100, seuil = 95)
 #'
 #' @export
 tangangPh <- function(nn,tot,seuil = 95){

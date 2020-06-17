@@ -3,7 +3,9 @@ Title: Somes graphs with ggplot2
 Version: 0.4
 Authors@R: person("Philippe", "MICHEL", email = "philippe@docteur-michel.fr", role = c("aut", "cre"))
 Description: all my usuels graphics.
-Depends: R (>= 3.5.0)
+Depends: 
+    R (>= 3.5.0),
+    tidyverse
 License: MIT
 Encoding: UTF-8
 LazyData: true
@@ -14,5 +16,5 @@ Imports:
     dplyr,
     viridis,
     stats,
-    lifecycle
+    lifecycle,
 RdMacros: lifecycle
